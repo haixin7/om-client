@@ -1,0 +1,85 @@
+@media only screen and (max-width: 425px) {
+  .order__status__steps--container {
+    padding-top: 36px;
+    padding-bottom: 42px;
+    .order__status__steps--progressbar {
+      text-align: center;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      color: #f34647;
+      .order__status__steps--step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .order__status__steps--text {
+          padding-bottom: 8px;
+        }
+
+        .order__status__steps--progress {
+          height: 20px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .order__status__steps--dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #f34647;
+          }
+          .order__status__steps--dot image {
+            display: none;
+          }
+          .progress__line {
+            width: 40px;
+            border: 1px solid #f34647;
+          }
+        }
+      }
+      .order__status__steps--step.isActive {
+        .order__status__steps--dot {
+          width: 20px;
+          height: 20px;
+          background: #f34647;
+        }
+        .order__status__steps--dot image {
+          display: block;
+        }
+        .progress__line.right {
+          border: 1px solid #c4c4c4;
+        }
+      }
+
+      .order__status__steps--step.isActive ~ .order__status__steps--step {
+        .order__status__steps--text p {
+          color: #c4c4c4;
+        }
+        .progress__line {
+          border: 1px solid #c4c4c4;
+        }
+        .order__status__steps--dot {
+          background: #c4c4c4;
+        }
+      }
+
+      .order__status__steps--step.confirming {
+        .progress__line.left {
+          border: 1px solid #fff;
+        }
+      }
+      .order__status__steps--step.finished {
+        .progress__line.right {
+          border: 1px solid #fff;
+        }
+      }
+    }
+  }
+}

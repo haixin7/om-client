@@ -1,0 +1,46 @@
+@media only screen and (max-width: 425px) {
+  .header__box__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 15px 20px;
+    .header__block--merchant {
+      h1 {
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+      }
+      p {
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #000000;
+      }
+    }
+    .header__block--table {
+      width: 62px;
+      height: 62px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #f34647;
+      border-radius: 62px;
+      p {
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #f34647;
+      }
+    }
+  }
+}

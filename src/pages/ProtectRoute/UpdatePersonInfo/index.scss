@@ -1,0 +1,11 @@
+.form-container {
+  display: flex;
+}
+.avatar-upload-container {
+  display: flex;
+  align-items: flex-end;
+  .avatar {
+    height: 100px;
+    width: 100px;
+  }
+}

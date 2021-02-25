@@ -1,0 +1,26 @@
+@media only screen and (max-width: 425px) {
+  .order__status__content {
+    height: 134px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 42px;
+
+    .order__status__content--image {
+      background-image: url(https://res.cloudinary.com/dmawkrb4t/image/upload/v1599177670/Vector_2_buhigp.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top: 10px;
+      padding-left: 35px;
+      margin-left: 20px;
+    }
+    .order__status__content--text {
+      background-image: url(https://res.cloudinary.com/dmawkrb4t/image/upload/v1599175440/Vector_aotyb3.png);
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+  }
+}

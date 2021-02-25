@@ -1,0 +1,29 @@
+.PageNotFound button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 5%;
+    border-radius: 10px;
+    background-color: #57c4cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.PageNotFound button:hover{
+    background-color: #57c3cd3a;
+}
+.PageNotFound p{
+    font-size: 1vw;
+}
+
+.PageNotFound h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+    color:rgb(7, 161, 245);
+}

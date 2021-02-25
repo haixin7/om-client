@@ -1,0 +1,50 @@
+.social-auth {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  .facebook-button {
+    background-color: #1877f2;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px,
+      rgba(0, 0, 0, 0.24) 0px 1px 2px 0px;
+    border: none;
+    border-radius: 22px;
+    padding-right: 9px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    i {
+      padding: 12px;
+      margin-right: 30px;
+    }
+  }
+  .google-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 22px !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px,
+      rgba(0, 0, 0, 0.05) 0px 0px 2px 2px !important;
+    span {
+      margin-left: 27px;
+      font-size: 16px;
+      font-family: 'PingFang SC';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+    }
+    div {
+      border-radius: 22px !important;
+    }
+  }
+}

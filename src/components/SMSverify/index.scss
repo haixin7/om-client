@@ -1,0 +1,10 @@
+.sms-verify {
+  display: flex;
+  align-items: center;
+  Button {
+    .sms-content {
+      width: 100px;
+      text-align: right;
+    }
+  }
+}

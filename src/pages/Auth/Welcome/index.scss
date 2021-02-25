@@ -1,0 +1,55 @@
+.explore-page {
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h1 {
+    text-align: center;
+    padding-top: 40px;
+    width: 266px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .welcome-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin-session {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    Button {
+      width: 290px;
+      font-family: 'PingFang SC';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .signup-link {
+      font-family: 'PingFang SC';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 19px;
+      p {
+        color: #000000;
+      }
+      span {
+        color: #f34647;
+      }
+    }
+  }
+}

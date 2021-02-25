@@ -1,0 +1,26 @@
+.merchant-page-wrapper{
+    max-width: 375px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  .toggle-page-wrapper{
+    width: 100%;
+      .toggle-head{
+        border: 1px solid black;
+          width: 100%;
+          max-width: 370px;
+          margin:auto;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          text-align: center;
+          padding: 10px 0;
+      }
+  }
+  .qr-code{
+    width: 100%;
+    height: 24px;
+  }
+}

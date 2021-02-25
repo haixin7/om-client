@@ -1,0 +1,98 @@
+.register-page {
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  h2 {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    width: 266px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .vant-field {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .register-form {
+    width: 270px;
+    .input-field {
+      display: grid;
+      grid-row-gap: 25px;
+
+      .input-phone {
+        border-bottom: 1px solid #969799;
+      }
+      .input-smscode {
+        border-bottom: 1px solid #969799;
+      }
+      .input-username {
+        border-bottom: 1px solid #969799;
+      }
+      .input-password {
+        border-bottom: 1px solid #969799;
+      }
+    }
+
+    .privacy-terms {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      p {
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #000000;
+        span {
+          color: #f34647;
+        }
+      }
+    }
+    .signup-session {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      Button {
+        width: 290px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+  }
+  .social-buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .signin-link {
+      font-family: 'PingFang SC';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 19px;
+      p {
+        color: #000000;
+      }
+      span {
+        color: #f34647;
+      }
+    }
+  }
+}

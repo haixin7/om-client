@@ -1,0 +1,9 @@
+.guest {
+  input {
+    border-color: rgba(128, 128, 128, 0.301);
+    outline: none;
+  }
+  input:hover {
+    cursor: not-allowed;
+  }
+}

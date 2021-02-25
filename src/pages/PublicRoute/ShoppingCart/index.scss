@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.shopping_cart_wrapper{
+    font-family: PingFang SC;
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: auto;
+    .shopping_cart_header{
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+        position: relative;
+        .shopping_cart_title{
+            display: flex;
+            padding-top: 24px;
+            padding-bottom: 21px;
+            max-width: 315px;
+            width: 100%;
+            margin:auto;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            color: black;
+            font-weight: 500px;
+            font-style: normal;
+            align-items: center;
+            top:0;
+            p{
+                display: block;
+                margin: auto;
+            }
+            .vant-icon{
+                position: absolute;
+                left:0;
+            }
+        }
+    }
+    .item_block:first-of-type{
+        margin-top: 31px;
+    }
+    .item_block{
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: 120px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        .variant_img{
+            img{
+                width: 100px;
+                height: 100px;
+                border-radius: 10px;
+            }
+        }
+        .variant_info{
+            .variant-title{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                &.displayImageInfo{
+                    position: absolute;
+                top: 10px;
+                left: 120px;
+                }
+            }
+                .stepper{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: absolute;
+                right: 0;
+                bottom: 5px;
+                width: 40px;
+                &.nonDisplayImageStepper{
+                    bottom: 50%;
+                }
+                button{
+                    border: 1px solid #000000;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                }
+                }
+        }
+    }
+        .vant-button {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            right:0;
+            margin:auto;
+            width: 300px;
+            font-size: 16px;
+            font-weight: normal;
+            border-radius: 22px;
+        }
+}
+

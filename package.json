@@ -1,0 +1,65 @@
+{
+	"name": "om-client",
+	"version": "999.999.999",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"axios": "^0.19.2",
+		"classnames": "^2.2.6",
+		"dotenv": "^8.2.0",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-facebook-login": "^4.1.1",
+		"react-google-login": "^5.1.21",
+		"react-google-maps": "^9.4.5",
+		"react-qr-svg": "^2.2.2",
+		"react-responsive-carousel": "^3.2.9",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.3",
+		"react-social-login": "^3.4.8",
+		"react-stripe-checkout": "^2.6.3",
+		"shortid": "^2.2.15",
+		"socket.io-client": "^2.3.0",
+		"vant-react": "^0.2.6"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"serve": "serve build",
+		"lint": "eslint --ext .js ./src",
+		"lint:watch": "esw --watch --fix --ext .js ./src --no-ignore"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run lint",
+			"pre-push": "npm run lint"
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-watch": "^6.0.1",
+		"husky": "^4.2.3",
+		"serve": "^11.3.0"
+	}
+}

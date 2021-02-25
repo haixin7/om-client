@@ -1,0 +1,10 @@
+.image-wrapper{
+    max-width: 425px;
+    width: 100%;
+    margin: auto;
+    .carousel-container{
+       img{
+           height: 40vh;
+       }
+    }
+}
